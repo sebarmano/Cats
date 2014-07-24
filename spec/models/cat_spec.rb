@@ -13,7 +13,11 @@
 #  updated_at  :datetime
 #
 
-class Cat < ActiveRecord::Base
-	dragonfly_accessor :image
-	validates :name, :bio, :breed, :catchphrase, presence: true
+require 'rails_helper'
+
+describe Cat do
+	it { is_expected.to validate_presence_of(:name) }
+	it { is_expected.to validate_presence_of(:bio) }
+	it { is_expected.to validate_presence_of(:breed) }
+	it { is_expected.to validate_presence_of(:catchphrase) }
 end

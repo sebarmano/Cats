@@ -33,9 +33,12 @@ gem 'capybara', group: :test
 gem 'factory_girl_rails', group: :test
 gem 'database_cleaner', group: :test
 gem 'terminal-notifier-guard', group: :development
-gem 'shoulda', group: :test
+gem 'shoulda-matchers', group: :test
 gem 'byebug', group: [:development, :test]
-
+gem 'annotate', group: :development
+gem 'dragonfly'
+gem 'faker'
+gem 'rabl-rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
