@@ -38,7 +38,7 @@ gem 'byebug', group: [:development, :test]
 gem 'annotate', group: :development
 gem 'dragonfly'
 gem 'faker'
-gem 'rabl-rails'
+gem 'rabl-rails'	
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
