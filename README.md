@@ -1,4 +1,6 @@
 # Cats
+[![Code Climate](https://codeclimate.com/github/sebarmano/Cats.png)](https://codeclimate.com/github/sebarmano/Cats)
+[![Build Status](https://travis-ci.org/sebarmano/Cats.svg?branch=master)](https://travis-ci.org/sebarmano/Cats)
 
 Cats is a simple rails app created with tests first that serves an API for a website with information about cats. It was made as homework, part of _The Iron Yard_ course.
 
